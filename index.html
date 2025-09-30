@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>乃斯如拉 - 个人主页</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">乃斯如拉</div>
+            <ul class="nav-menu">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 首页区域 -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        嘿，我是<span class="highlight">乃斯如拉</span>！<span class="sparkle">✨</span>
+                    </h1>
+                    <p class="hero-subtitle">一个在双一流大学日常"修仙"的大学生</p>
+                    <div class="hero-buttons">
+                        <a href="#about" class="btn btn-primary">了解更多</a>
+                        <a href="#contact" class="btn btn-secondary">联系我</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-elements">
+                        <div class="float-item">🎓</div>
+                        <div class="float-item">🇯🇵</div>
+                        <div class="float-item">💹</div>
+                        <div class="float-item">🤓</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我区域 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="intro-card">
+                        <p class="intro-text">
+                            一个在双一流大学日常"修仙"的大学生。<br><br>
+                            技能树点了一下：
+                        </p>
+                        <div class="skill-highlights">
+                            <div class="skill-item">
+                                <span class="skill-icon">🇯🇵</span>
+                                <div class="skill-desc">
+                                    <strong>日语N2通关</strong><br>
+                                    看番不用字幕，人生体验卡+1
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-icon">💹</span>
+                                <div class="skill-desc">
+                                    <strong>新手交易员（自称）</strong><br>
+                                    主要擅长为金融市场提供流动性（俗称：当韭菜）
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-icon">🤓</span>
+                                <div class="skill-desc">
+                                    <strong>持续学习型选手</strong><br>
+                                    心态超稳，毕竟经过股市的洗礼
+                                </div>
+                            </div>
+                        </div>
+                        <div class="status-badge">
+                            <span class="status-text">目前状态：潜力股，性价比高，欢迎来聊点有意思的事！</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 技能区域 -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">技能展示</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-language"></i>
+                        <h3>语言能力</h3>
+                    </div>
+                    <div class="skill-content">
+                        <div class="skill-bar">
+                            <span class="skill-name">中文</span>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 100%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">维吾尔语</span>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 100%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">日语 (N2)</span>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">英语</span>
+                            <div class="progress">
+                                <div class="progress-bar learning" style="width: 40%"></div>
+                            </div>
+                            <span class="skill-status">学习中，半年后查看</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>金融交易</h3>
+                    </div>
+                    <div class="skill-content">
+                        <div class="skill-bar">
+                            <span class="skill-name">技术分析</span>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">风险管理</span>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">心态管理</span>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-brain"></i>
+                        <h3>学习能力</h3>
+                    </div>
+                    <div class="skill-content">
+                        <div class="skill-bar">
+                            <span class="skill-name">快速学习</span>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">适应能力</span>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">抗压能力</span>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系区域 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">联系我</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>想聊点有意思的事？</h3>
+                    <p>无论是日语学习、交易心得，还是大学生活的奇闻异事，都欢迎来聊！</p>
+                    <div class="contact-methods">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>邮箱：xirotonono@outlook.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-weixin"></i>
+                            <span>微信：Different709world</span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="你的名字" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="邮箱地址" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="想说点什么？" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 乃斯如拉. 保持有趣，保持学习！</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
